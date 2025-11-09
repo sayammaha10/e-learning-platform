@@ -1,6 +1,5 @@
 "use client";
 
-import { tree } from "next/dist/build/templates/app-page";
 import { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
 
