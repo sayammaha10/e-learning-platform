@@ -3,8 +3,10 @@ import { FaArrowRight, FaAward } from "react-icons/fa";
 export const About = () => {
   return (
     <div className="pt-16 pb-16">
+      {/* Define grid */}
       <div className="w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
-        <div>
+        {/* First section */}
+        <div data-aos="fade-right" data-aos-anchor-placement="top-center">
           <div className="flex items-center space-x-4">
             <div className="w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center">
               <FaAward className="w-6 h-6" />
@@ -30,7 +32,12 @@ export const About = () => {
           </button>
         </div>
 
-        <div>
+        {/* Second Section */}
+        <div
+          data-aos="fade-left"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="150"
+        >
           <div>
             <h2 className="text-7xl lg:text-9xl font-bold text-black text-opacity-5">
               01

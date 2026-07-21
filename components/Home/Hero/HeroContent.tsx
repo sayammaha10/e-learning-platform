@@ -1,12 +1,20 @@
 const HeroContent = () => {
   return (
     <div>
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white">
+      {/* Title */}
+      <h1
+        data-aos="fade-right"
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white"
+      >
         Best online platform for education.
       </h1>
 
       {/* Description */}
-      <p className="mt-6 text-sm md:text-base text-white text-opacity-60 ">
+      <p
+        data-aos="fade-left"
+        data-aos-delay="150"
+        className="mt-6 text-sm md:text-base text-white text-opacity-60 "
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officia
         perferendis similique distinctio, suscipit provident incidunt neque
         doloribus dolor rem!
@@ -15,6 +23,8 @@ const HeroContent = () => {
       {/* Buttons */}
       <div className="mt-8 flex items-center space-x-4">
         <button
+          data-aos="zoom-in"
+          data-aos-delay="300"
           aria-label="Get Started"
           type="button"
           className="button__default bg-green-700 hover:bg-green-900"
@@ -22,6 +32,8 @@ const HeroContent = () => {
           Get Started
         </button>
         <button
+          data-aos="zoom-in"
+          data-aos-delay="450"
           aria-label="Learn More"
           type="button"
           className="button__default bg-yellow-700 hover:bg-yellow-900"
@@ -32,7 +44,7 @@ const HeroContent = () => {
 
       {/* Stats */}
       <div className="flex items-center flex-wrap space-x-16 mt-8">
-        <div>
+        <div data-aos="fade-up" data-aos-delay="600">
           <p className="md:text-xl lg:text-2xl text-base text-white font-bold">
             260+
           </p>
@@ -41,7 +53,7 @@ const HeroContent = () => {
             Tutors
           </p>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="750">
           <p className="md:text-xl lg:text-2xl text-base text-white font-bold">
             2260+
           </p>
@@ -50,7 +62,7 @@ const HeroContent = () => {
             Students
           </p>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="900">
           <p className="md:text-xl lg:text-2xl text-base text-white font-bold">
             60+
           </p>

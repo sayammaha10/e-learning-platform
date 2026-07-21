@@ -5,7 +5,8 @@ const Features = () => {
   return (
     <div className="pb-16">
       <div className="mt-8 grid grid-cols-1 xl:grid-cols-2 items-center gap-12 w-[80%] mx-auto">
-        <div>
+        {/* Image */}
+        <div data-aos="zoom-in" data-aos-anchor-placement="top-center">
           <Image
             src="/images/placeholder-image.png"
             alt="Image"
@@ -15,6 +16,7 @@ const Features = () => {
           />
         </div>
 
+        {/* Text Content */}
         <div>
           <div className="flex items-center space-x-4">
             <div className="w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center">

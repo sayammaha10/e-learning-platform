@@ -21,8 +21,13 @@ const Courses = () => {
         {/* Courses */}
         <div className="mt-10 md:mt-16 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
           {/* Individual course card */}
-          {coursesData.map((course) => (
-            <div key={course.id}>
+          {coursesData.map((course, i) => (
+            <div
+              key={course.id}
+              data-aos="fade-right"
+              data-aos-anchor-placement="top-center"
+              data-aos-delay={`${i * 100}`}
+            >
               <CourseCard course={course} />
             </div>
           ))}

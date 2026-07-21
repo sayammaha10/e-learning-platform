@@ -13,9 +13,14 @@ const Article = () => {
         {/* Define grid system */}
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Article mapping */}
-          {articleData.map((article) => {
+          {articleData.map((article, i) => {
             return (
-              <div key={article.id}>
+              <div
+                key={article.id}
+                data-aos="zoom-out"
+                data-aos-anchor-placement="top-center"
+                data-aos-delay={`${i * 100}`}
+              >
                 <ArticleCard article={article} />
               </div>
             );
