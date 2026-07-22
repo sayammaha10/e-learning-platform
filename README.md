@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Home Book Education
 
-## Getting Started
+A responsive online education platform UI built as a **practice project** while learning and improving my skills with **Next.js, React, TypeScript, and Tailwind CSS**.
 
-First, run the development server:
+This project focuses on building a modern educational website with reusable components, responsive layouts, animations, interactive cards, navigation, course sections, articles, and student reviews.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 https://e-learning-platform-three-pi.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Responsive education platform landing page
+- Hero section with statistics and call-to-action buttons
+- About section
+- Popular courses section
+- Interactive course cards
+- Latest articles section
+- Student reviews carousel
+- Responsive desktop and mobile navigation
+- Mobile sidebar menu
+- Scroll-based navbar styling
+- Smooth scroll animations
+- Interactive tilt effects on course cards
+- Scroll-to-top button
+- Newsletter subscription UI
+- Responsive layout for different screen sizes
 
-## Learn More
+## 🛠️ Built With
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **AOS** — Animate On Scroll
+- **React Icons**
+- **React Parallax Tilt**
+- **React Multi Carousel**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 What I Practiced
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Through this project, I practiced:
 
-## Deploy on Vercel
+- Building reusable React components
+- Creating layouts with Next.js
+- Using TypeScript with React components
+- Styling interfaces with Tailwind CSS
+- Creating responsive designs
+- Building reusable course and article cards
+- Implementing responsive navigation
+- Creating mobile navigation menus
+- Adding scroll animations with AOS
+- Creating image carousels
+- Adding interactive tilt effects
+- Managing UI state with React hooks
+- Using `useEffect` for scroll and resize events
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Main Sections
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🏠 Hero Section
+
+The landing section includes:
+
+- Main heading
+- Description
+- Call-to-action buttons
+- Platform statistics
+- Hero illustration
+
+### 📖 About Section
+
+A section showcasing the benefits of online learning, including:
+
+- Flexible schedules
+- Affordable learning
+- Certified learning experience
+
+### 📚 Popular Courses
+
+Course cards display:
+
+- Course image
+- Course category
+- Instructor
+- Price
+- Ratings
+- Number of lessons
+- Number of students
+
+### ⭐ Student Reviews
+
+An auto-playing carousel showcasing student testimonials and feedback.
+
+### 📰 Latest Articles
+
+Article cards display:
+
+- Cover image
+- Author information
+- Reactions
+- Article title
+- Learn More button
+
+### 📱 Responsive Navigation
+
+The navigation includes:
+
+- Desktop navigation links
+- Mobile sidebar menu
+- Animated menu transitions
+- Scroll-based navbar background
+- Responsive behavior
+
+## 🎯 Project Purpose
+
+This is a **practice project** created to improve my frontend development skills and gain hands-on experience with:
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Component-based development
+- Responsive web design
+
+This project is part of my learning journey and may be improved and expanded over time.
